@@ -1,2 +1,3 @@
 # Anti-analysis-techniques
- Anti debug anti vm techniques used by malware.
+This repo is PoC for show how malware use this techniques.
+Includes anti debuger, anti vm and anti sandbox techniques used by malware.
