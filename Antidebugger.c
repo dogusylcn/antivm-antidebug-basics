@@ -24,7 +24,7 @@ int main()
 	printf("Tick Count 2 = %d\n",count);
 	printf("Tick Count 1 = %d\n",count2);
 
-	if(count == count2) // we can say there is no debugger if timers count are equals
+	if(count == count2) // we can say there is no debugger if timer counts are equals
 		{
 			printf("No debugger detected");
 		}
