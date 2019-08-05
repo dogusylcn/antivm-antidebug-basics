@@ -19,12 +19,12 @@ int main()
 			return 0;
 		}
 
-	int count = GetTickCount(); // functions running times
+	int count = GetTickCount(); // get time from timer, miliseconds type 
 	int count2 = GetTickCount();
 	printf("Tick Count 2 = %d\n",count);
 	printf("Tick Count 1 = %d\n",count2);
 
-	if(count == count2) // we can say no debbuger if no difference both function running time.
+	if(count == count2) // we can say there is no debugger if timers count are equals
 		{
 			printf("No debugger detected");
 		}
