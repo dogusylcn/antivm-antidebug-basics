@@ -4,7 +4,7 @@
 int main() 
 {
 	register int eax asm("%eax");
-	OutputDebugString("Tubitak");// this changes eax value when program works in debugger
+	OutputDebugString("Akuvvak");// this changes eax value when program works in debugger
 	
 	if(eax>1) 
 		{
