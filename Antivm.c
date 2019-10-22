@@ -61,11 +61,11 @@ int main(void)
     if(p==0) printf("Vm driver files doesnt exist:");
     printf("\n-----------------------------------------------------------------------\n\n");
     
-    //Vmware processleri lisleme
+    //list Vmware process 
     printf("Searching for Vm process\n");
     char *taskbul= "tasklist/fi \"imagename eq vmtoolsd.exe\"";
     system(taskbul);
-    //Vmware servisleri 
+    //Vmware servises
     printf("\n------------------------------------------------------------------\n");
     printf("Searching for Vm services \n\n");
     char *servisbul = "net start|find \"VM\"";
